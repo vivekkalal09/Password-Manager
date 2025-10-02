@@ -4,12 +4,16 @@ import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Manager from "./components/Manager";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Manager />
+      <div className="min-h-screen">
+        <Manager />
+      </div>
+      <Footer />
     </>
   );
 }
